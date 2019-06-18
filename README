@@ -1,0 +1,16 @@
+NAME
+	xkey
+
+DESCRIPTION
+	Sits in the background grabbing keys in X and running the
+	associated shell command.
+
+CONFIGURATION
+	This program is configured by editing the config.h file and then
+	recompiling in suckless (https://suckless.org/) fashion.
+
+RATIONALE
+	The program xbindkeys is bloated (Guile? really?), and handles things
+	no one needs/uses.
+	This alternative aims to be tiny and to the point.
+
